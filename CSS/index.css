@@ -1,0 +1,107 @@
+
+body{
+    background-image: url(../images/background.webp);
+    background-repeat: no-repeat;
+    cursor: none;
+}
+button:hover{
+    cursor: none;
+}
+input:hover{
+    cursor: none;
+}
+.aim{
+    pointer-events: none;
+    position: absolute;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+  }
+
+.warning{
+    text-align: center;
+    color: red;
+}
+.hidden{
+    display: none;
+}
+
+.infoMessage,.instruc{
+    opacity: 0.8;
+    margin: auto;
+    width: 40%;
+    height: 40vh;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-shadow: 1px 0px 20px 20px #3a383885;
+    color: rgb(132, 132, 189);
+}
+.infoMessage .imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.infoMessage .imgs img{
+    width: 25%;
+}
+.infoMessage button{
+    width: 20%;
+    height: 10%;
+    background-color: rgb(67, 67, 240);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+input{
+    border: none;
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+.instruc{
+    align-items: flex-start;
+    margin-top: 80px;
+    font-size: large;
+}
+.instruc .points{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.instruc img{
+    width: 40%;
+}
+
+.redImg{
+    width: 30% !important;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+
+h3{
+    position: absolute;
+    color: red;
+    text-align: center;
+    transform: rotateY('45deg');
+    top: 43%;
+    left: 37%;
+}
